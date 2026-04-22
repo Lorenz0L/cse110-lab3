@@ -25,8 +25,10 @@
 </header>
 
 <nav>
-    <a href="#attendance">Attendance</a> |
-    <a href="#agenda">Agenda</a> |
+    <a href="#attendance">Attendance</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#colors">Colors</a>
+    <a href="#examples">Examples</a>
     <a href="#feedback">Feedback</a>
 </nav>
 
@@ -114,39 +116,51 @@
         This uses INTERNAL CSS (style tag)!
     </div>
 
-    <div class="flex-container">
-        <div>Flex Item 1</div>
-        <div>Flex Item 2</div>
-        <div>Flex Item 3</div>
-    </div>
+    <section id="colors">
+        <h2>Colors</h2>
+        <p class="rgb-example">RGB color example</p>
+        <p class="hex-example">HEX color example</p>
+        <p class="hsl-example">HSL color example</p>
+        <p class="name-example">Color name example</p>
+    </section>
 
-    <div class="grid-container">
-        <div>Grid Item 1</div>
-        <div>Grid Item 2</div>
-        <div>Grid Item 3</div>
-    </div>
+    <section id="examples">
+        <h2>Examples</h2>
 
-    <p class="rgb-example">RGB color example</p>
-    <p class="hex-example">HEX color example</p>
-    <p class="hsl-example">HSL color example</p>
-    <p class="name-example">Color name example</p>
+        <h3>Flex</h3>
+        <div class="flex-container">
+            <div class="demo-card">Flex Item 1</div>
+            <div class="demo-card">Flex Item 2</div>
+            <div class="demo-card">Flex Item 3</div>
+        </div>
 
-    <div class="margin-longhand">Margin longhand example</div>
-    <div class="margin-shorthand">Margin shorthand example</div>
-    <div class="margin-auto">Margin auto example</div>
+        <h3>Grid</h3>
+        <div class="grid-container">
+            <div class="demo-card">Grid Item 1</div>
+            <div class="demo-card">Grid Item 2</div>
+            <div class="demo-card">Grid Item 3</div>
+        </div>
 
-    <div class="padding-longhand">Padding longhand example</div>
-    <div class="padding-shorthand">Padding shorthand example</div>
+        <h3>Spacing</h3>
+        <div class="margin-longhand demo-box">Margin longhand example</div>
+        <div class="margin-shorthand demo-box">Margin shorthand example</div>
+        <div class="margin-auto demo-box">Margin auto example</div>
 
-    <div class="border-example">Border example</div>
+        <div class="padding-longhand demo-box">Padding longhand example</div>
+        <div class="padding-shorthand demo-box">Padding shorthand example</div>
 
-    <div class="display-block">Display block example</div>
-    <div class="display-inline-block">Display inline-block example</div>
+        <h3>Border + Display</h3>
+        <div class="border-example demo-box">Border example</div>
 
-    <div class="sizing-example">Sizing example (height, width, max, min)</div>
+        <div class="display-block demo-box">Display block example</div>
+        <div class="display-inline-block demo-box">Display inline-block example</div>
 
-    <div class="position-relative">Position relative example</div>
-    <div class="position-sticky">Position sticky example (scroll to see)</div>
+        <h3>Sizing + Position</h3>
+        <div class="sizing-example demo-box">Sizing example (height, width, max, min)</div>
+
+        <div class="position-relative demo-box">Position relative example</div>
+        <div class="position-sticky demo-box">Position sticky example (scroll to see)</div>
+    </section>
 
     <hr>
 
