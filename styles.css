@@ -210,6 +210,23 @@ footer p {
     background-color: #fff7d6;
 }
 
+.sticky-demo-area {
+    margin-top: 12px;
+    border: 1px dashed #d1d5db;
+    border-radius: 12px;
+    padding: 12px;
+    background: #fafafa;
+    height: 320px;
+    overflow: auto;
+}
+
+.sticky-demo-spacer {
+    margin-top: 12px;
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
