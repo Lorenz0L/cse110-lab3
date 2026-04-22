@@ -5,150 +5,208 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Group Meeting Minutes</title>
     <link rel="shortcut icon" href="Icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .internal-css-example {
+            background-color: #d4f1f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>CS 110 Study Group Meeting </h1>
-        <h2>Exam Prep Session</h2>
-        <h3>April 14, 2025</h3>
-    </header>
-    <nav>
-        <a href="#attendance">Attendance</a> |
-        <a href="#agenda">Agenda</a> |
-        <a href="#feedback">Feedback</a> |
-        <a href="#meetingrecords">Meeting Recordings</a>
-    </nav>
-    <main>
-        <section id="attendance">
-            <h2>Attendance</h2>
-            <ul>
-                <li>Abhay - Leader</li>
-                <li>Lorenzo - Member</li>
-                <li>Steven - Member</li>
-                <li>Jennifer - Member</li>
-            </ul>
-        </section>
 
-        <section id="agenda">
-            <h2>Agenda</h2>
-            <ol>
-                <li>Review chapters 5-8</li>
-                <li>Practice exam problems</li>
-                <li>Schedule next meeting</li>
-            </ol>
-        </section>
+<header>
+    <h1>CS 110 Study Group Meeting</h1>
+    <h2>Exam Prep Session</h2>
+    <h3>April 14, 2025</h3>
+</header>
 
-        <section>
-            <h2>Unfinished Business</h2>
-            <ul>
-                <li>Chapter 5 quiz - <strong>everyone needs to complete</strong> by Friday</li>
-                <li>Practice exam - <em>due this Sunday</em></li>
-                <li>Study guide - <b>posted on Canvas</b></li>
-                <li>Office hours - <i>Tuesday 2-4pm</i></li>
-            </ul>
-        </section>
+<nav>
+    <a href="#attendance">Attendance</a> |
+    <a href="#agenda">Agenda</a> |
+    <a href="#feedback">Feedback</a>
+</nav>
 
-        <section>
-            <h2>New Business</h2>
-            <div>
-                <p>We discussed creating a <span>shared study calendar</span> for the final exam.</p>
-                <p>The team agreed on the following:</p>
-            </div>
-            <ul>
-                <li>Everyone will add their available times</li>
-                <li>We'll meet twice per week</li>
-                <li>Session leader will rotate each week</li>
-            </ul>
-        </section>
+<main>
+    <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+            <li>Abhay - Leader</li>
+            <li>Lorenzo - Member</li>
+            <li>Steven - Member</li>
+            <li>Jennifer - Member</li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>Study Plan Diagram</h2>
-            <img src="Study.png" 
-                 alt="Diagram showing study schedule from Week 1 to Week 10"
-                 width="500">
-        </section>
+    <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+            <li>Review chapters 5-8</li>
+            <li>Practice exam problems</li>
+            <li>Schedule next meeting</li>
+        </ol>
+    </section>
 
-        <details>
-            <summary>Additional Notes (click to expand)</summary>
-            <p>Next meeting: April 21 at 3pm in the library.</p>
-            <p>Bring your laptops with VS Code installed.</p>
-        </details>
+    <section>
+        <h2>Unfinished Business</h2>
+        <ul>
+            <li>Chapter 5 quiz - <strong>everyone needs to complete</strong> by Friday</li>
+            <li>Practice exam - <em>due this Sunday</em></li>
+            <li>Study guide - <b>posted on Canvas</b></li>
+            <li>Office hours - <i>Tuesday 2-4pm</i></li>
+        </ul>
+    </section>
 
-        <hr>
-        <section id="meetingrecords">
-            <h2>Meeting Audio Recording</h2>
-            <audio controls>
-                <source src="Rainsound.mp3" type="audio/mpeg">
-                Your browser does not support audio.
-            </audio>
-            <p><i>Audio recording of today's meeting</i></p>
-        </section>  
+    <section>
+        <h2>New Business</h2>
+        <div>
+            <p>We discussed creating a <span>shared study calendar</span> for the final exam.</p>
+            <p>The team agreed on the following:</p>
+        </div>
+        <ul>
+            <li>Everyone will add their available times</li>
+            <li>We'll meet twice per week</li>
+            <li>Session leader will rotate each week</li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>Meeting Video Recording</h2>
-            <video width="500" controls>
-                <source src="StudyVid.mp4" type="video/mp4">
-                Your browser does not support video.
-            </video>
-            <p><i>Video recording of today's meeting (no audio)</i></p>
-        </section>
-        <hr>
+    <section>
+        <h2>Study Plan Diagram</h2>
+        <img src="Study.png" alt="Study schedule diagram" width="500">
+    </section>
 
-        <section id="feedback">
-            <h2>Meeting Feedback Form</h2>
-            <form>
-                <fieldset>
-                    <legend>Rate This Meeting</legend>
-                    
-                    <label>Your Name:</label>
-                    <input type="text" placeholder="Enter your name">
-                    <br><br>
-                    
-                    <label>Meeting Date:</label>
-                    <input type="date">
-                    <br><br>
-                    
-                    <label>Was this meeting helpful?</label><br>
-                    <input type="radio" name="helpful" value="yes"> Yes<br>
-                    <input type="radio" name="helpful" value="no"> No
-                    <br><br>
-                    
-                    <label>Topics to cover next time:</label><br>
-                    <input type="checkbox" name="arrays"> Arrays<br>
-                    <input type="checkbox" name="loops"> Loops<br>
-                    <input type="checkbox" name="functions"> Functions
-                    <br><br>
-                    
-                    <label>Suggested topic:</label>
-                    <input list="topics">
-                    <datalist id="topics">
-                        <option value="Recursion">
-                        <option value="Sorting">
-                        <option value="Searching">
-                    </datalist>
-                    <br><br>
-                    
-                    <label>Meeting rating:</label>
-                    <select>
-                        <option>Excellent</option>
-                        <option>Good</option>
-                        <option>Average</option>
-                        <option>Poor</option>
-                    </select>
-                    <br><br>
-                    
-                    <label>Additional comments:</label><br>
-                    <textarea rows="3" cols="40" placeholder="Write your feedback here..."></textarea>
-                    <br><br>
-                    
-                    <button type="submit">Submit Feedback</button>
-                    
-                </fieldset>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 CS 110 Study Group. All notes are ours</p>
-    </footer>
+    <details>
+        <summary>Additional Notes (click to expand)</summary>
+        <p>Next meeting: April 21 at 3pm in the library.</p>
+        <p>Bring your laptops with VS Code installed.</p>
+    </details>
+
+    <hr>
+
+    <section>
+        <h2>Meeting Audio Recording</h2>
+        <audio controls>
+            <source src="Rain_sound.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+        <p><i>Audio recording of today's meeting</i></p>
+    </section>
+
+    <section>
+        <h2>Meeting Video Recording</h2>
+        <video width="500" controls>
+            <source src="StudyVid.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+        <p><i>Video recording of today's meeting</i></p>
+    </section>
+
+    <hr>
+
+    <div style="color: red; font-weight: bold; padding: 10px; background-color: #ffe6e6; margin: 10px 0;">
+        This uses INLINE CSS!
+    </div>
+
+    <div class="internal-css-example">
+        This uses INTERNAL CSS (style tag)!
+    </div>
+
+    <div class="flex-container">
+        <div>Flex Item 1</div>
+        <div>Flex Item 2</div>
+        <div>Flex Item 3</div>
+    </div>
+
+    <div class="grid-container">
+        <div>Grid Item 1</div>
+        <div>Grid Item 2</div>
+        <div>Grid Item 3</div>
+    </div>
+
+    <p class="rgb-example">RGB color example</p>
+    <p class="hex-example">HEX color example</p>
+    <p class="hsl-example">HSL color example</p>
+    <p class="name-example">Color name example</p>
+
+    <div class="margin-longhand">Margin longhand example</div>
+    <div class="margin-shorthand">Margin shorthand example</div>
+    <div class="margin-auto">Margin auto example</div>
+
+    <div class="padding-longhand">Padding longhand example</div>
+    <div class="padding-shorthand">Padding shorthand example</div>
+
+    <div class="border-example">Border example</div>
+
+    <div class="display-block">Display block example</div>
+    <div class="display-inline-block">Display inline-block example</div>
+
+    <div class="sizing-example">Sizing example (height, width, max, min)</div>
+
+    <div class="position-relative">Position relative example</div>
+    <div class="position-sticky">Position sticky example (scroll to see)</div>
+
+    <hr>
+
+    <section id="feedback">
+        <h2>Meeting Feedback Form</h2>
+        <form>
+            <fieldset>
+                <legend>Rate This Meeting</legend>
+
+                <label>Your Name:</label>
+                <input type="text" placeholder="Enter your name">
+                <br><br>
+
+                <label>Meeting Date:</label>
+                <input type="date">
+                <br><br>
+
+                <label>Was this meeting helpful?</label><br>
+                <input type="radio" name="helpful" value="yes"> Yes<br>
+                <input type="radio" name="helpful" value="no"> No
+                <br><br>
+
+                <label>Topics to cover next time:</label><br>
+                <input type="checkbox" name="arrays"> Arrays<br>
+                <input type="checkbox" name="loops"> Loops<br>
+                <input type="checkbox" name="functions"> Functions
+                <br><br>
+
+                <label>Suggested topic:</label>
+                <input list="topics">
+                <datalist id="topics">
+                    <option value="Recursion">
+                    <option value="Sorting">
+                    <option value="Searching">
+                </datalist>
+                <br><br>
+
+                <label>Meeting rating:</label>
+                <select>
+                    <option>Excellent</option>
+                    <option>Good</option>
+                    <option>Average</option>
+                    <option>Poor</option>
+                </select>
+                <br><br>
+
+                <label>Additional comments:</label><br>
+                <textarea rows="3" cols="40" placeholder="Write your feedback here..."></textarea>
+                <br><br>
+
+                <button type="submit">Submit Feedback</button>
+
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 CS 110 Study Group. All notes are ours</p>
+</footer>
+
 </body>
 </html>
