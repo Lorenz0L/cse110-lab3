@@ -1,5 +1,3 @@
-# Lab 2 - Meeting Minutes
+# Lab 3 - CSS & Agile Intro
 
-## Published Site URL
-https://lorenz0l.github.io/Lab2/ 
-
+## Published Site
